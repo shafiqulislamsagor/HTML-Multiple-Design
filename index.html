@@ -124,7 +124,7 @@
                     <h1 class="text-3xl font-semibold">Ganesha Special </h1>
                     <div class="w-24 h-1 bg-yellow-400"></div>
                 </div>
-                <div class="py-12 grid grid-cols-4 gap-1">
+                <div class="py-12 grid grid-cols-1 lg:grid-cols-4 gap-1">
                     <div class="group h-[450px] cursor-pointer">
                         <div class="border relative flex flex-col items-end">
                             <button
@@ -171,7 +171,7 @@
                     <h1 class="text-3xl font-semibold">Haldiram's Premium </h1>
                     <div class="w-24 h-1 bg-yellow-400"></div>
                 </div>
-                <div class="py-12 grid grid-cols-4 gap-1">
+                <div class="py-12 grid grid-cols-1 lg:grid-cols-4 gap-1">
                     <div class="group h-[450px] cursor-pointer">
                         <div class="border relative flex flex-col items-end">
                             <button
@@ -236,22 +236,25 @@
                 </div>
             </section>
             <!-- picture show -->
-            <section class="grid gap-8 grid-cols-2 w-[90%] mx-auto my-10">
+            <section
+                class="grid gap-8 grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto my-10">
                 <a href="#"><img
                         src="https://www.haldirams.com/media/wysiwyg/webminkhana.png"
                         alt="photo"></a>
                 <a href="#"><img
                         src="https://www.haldirams.com/media/wysiwyg/webminkhana.png"
                         alt="photo"></a>
-                <a href="#" class="col-span-2"><img
+                <a href="#" class="lg:col-span-2"><img
+                        class="h-40 lg:h-auto"
                         src="https://www.haldirams.com/media/wysiwyg/webmosttrusted.png"
                         alt="photo"></a>
             </section>
             <!-- about us -->
             <section class="w-[90%] mx-auto my-7">
                 <h1 class="text-3xl font-semibold mb-10">About Us </h1>
-                <div class="flex justify-between gap-5">
-                    <div class="w-1/2 space-y-8">
+                <div
+                    class="flex flex-col-reverse lg:flex-row justify-between gap-5">
+                    <div class="lg:w-1/2 space-y-8">
                         <p>Over the course of eight decades, a lot has changed
                             about us. We have relocated, undergone expansion,
                             developed new product lines & added segments, opened
@@ -273,7 +276,7 @@
                         <button
                             class="text-white bg-red-600 px-4 py-2 font-semibold">Explore</button>
                     </div>
-                    <iframe width="560" height="315"
+                    <iframe class="lg:w-[560px] lg:h-[315px]"
                         src="https://www.youtube.com/embed/6nP2kxxJiKU?si=mzHIhLdkReqC-qfc"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -285,13 +288,15 @@
         <footer class="bg-[#f7f7f7]">
             <!-- subscribe section -->
             <section
-                class="bg-[#fac44b] py-10 flex justify-center gap-10 items-center">
+                class="bg-[#fac44b] py-10 flex flex-col lg:flex-row justify-center gap-5 lg:gap-10 items-center">
                 <div class="flex items-center gap-4">
-                    <img src="./image/telegram.svg" alt class="w-10 h-10">
-                    <div>
-                        <h1 class="text-2xl font-medium">SIGN UP FOR
+                    <img src="./image/telegram.svg" alt
+                        class="w-10 h-10 hidden lg:block">
+                    <div class="text-center lg:text-left">
+                        <h1 class="text-xl lg:text-2xl font-medium">SIGN UP FOR
                             NEWSLETTER</h1>
-                        <p>Want To Get Latest Updates ! Sign Up For Free.</p>
+                        <p class="text-sm lg:text-base">Want To Get Latest
+                            Updates ! Sign Up For Free.</p>
                     </div>
                 </div>
                 <div class="flex items-center">
@@ -304,8 +309,8 @@
             </section>
             <!-- footer link -->
             <section class="w-[90%] mx-auto text-[15px]">
-                <div class="grid grid-cols-10 py-10">
-                    <div class="col-span-2 space-y-2">
+                <div class="grid grid-cols-1 lg:grid-cols-10 py-10">
+                    <div class="lg:col-span-2 space-y-2">
                         <h1 class="text-lg font-bold">QUICK LINKS</h1>
                         <p><a href="#">About Us</a></p>
                         <p><a href="#">Our Process</a></p>
@@ -315,7 +320,7 @@
                         <p><a href="#">Retail Stores & Restaurants</a></p>
                         <p><a href="#">Store Locator</a></p>
                     </div>
-                    <div class="col-span-2 space-y-2">
+                    <div class="lg:col-span-2 space-y-2">
                         <h1 class="text-lg font-bold">OUR SERVICES</h1>
                         <p> <a href="#">Bulk Orders</a></p>
                         <p> <a href="#">Careers</a></p>
@@ -326,7 +331,7 @@
                         <p> <a href="#">Recipe Videos</a></p>
                         <hr class="w-1/2">
                     </div>
-                    <div class="col-span-2 space-y-2">
+                    <div class="lg:col-span-2 space-y-2">
                         <h1 class="text-lg font-bold"> OUR POLICES</h1>
                         <p> <a href="#">Cancellation & Refund</a></p>
                         <p> <a href="#">Shipping</a></p>
@@ -336,7 +341,7 @@
                         <p> <a href="#">Quality Assurance</a></p>
                         <p><a href="#"> Certification & Accolades</a></p>
                     </div>
-                    <div class="col-span-3 space-y-2">
+                    <div class="lg:col-span-3 space-y-2">
                         <h1 class="text-lg font-bold">REACH US</h1>
                         <p class="font-bold">Email :
                             <span
@@ -358,7 +363,7 @@
                                 alt>
                         </div>
                     </div>
-                    <div class="col-span-1 pl-2 space-y-2">
+                    <div class="lg:col-span-1 pl-2 space-y-2">
                         <h1 class="text-lg font-bold">Follow Us</h1>
                         <p> <a href="#">Facebook</a></p>
                         <p> <a href="#">Instagram</a></p>
